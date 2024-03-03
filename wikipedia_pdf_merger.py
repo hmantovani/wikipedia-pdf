@@ -20,6 +20,6 @@ def merge_pdfs(folder_path, output_path):
         pdf_writer.write(output_file)
 
 if __name__ == "__main__":
-    folder_path = 'balkan-football/'  # Change this to the path of your folder
-    output_path = 'football-in-balkans.pdf'  # Change this to the desired output file path
+    folder_path = 'croatian-clubs/'  # Change this to the path of your folder
+    output_path = 'Croatian Clubs.pdf'  # Change this to the desired output file path
     merge_pdfs(folder_path, output_path)
