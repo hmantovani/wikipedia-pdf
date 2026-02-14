@@ -1,0 +1,16 @@
+# Ambientes virtuais
+venv/
+.venv/
+env/
+
+# Cache do Python
+__pycache__/
+*.pyc
+
+# Pasta de downloads (para não subir seus vídeos pessoais)
+downloads/
+
+# Arquivos de sistema e IDE
+.vscode/
+.idea/
+Thumbs.db
